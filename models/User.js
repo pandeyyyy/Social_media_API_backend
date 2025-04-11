@@ -43,5 +43,5 @@ userSchema.virtual('friendCount').get(function () {
   return this.friends.length;
 });
 
-// Set up the model, which is a representation for the collection
+
 module.exports = model('user', userSchema);
